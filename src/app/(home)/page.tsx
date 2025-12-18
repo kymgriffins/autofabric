@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <Featured />
+      {/* <Featured /> */}
       <OffersSection />
       <FinancilaFreedom />
       <FinancialFuture />

@@ -19,14 +19,12 @@ export const Inner = styled.main`
 `;
 
 export const FooterLogo = styled.div`
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+
   @media (max-width: 768px) {
-    width: 13.2rem;
-    height: 5.6rem;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
+    font-size: 1.5rem;
   }
 `;
 

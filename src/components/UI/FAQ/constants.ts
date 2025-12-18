@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'How can the 6 sectors be automated seamlessly?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'AutoFabric integrates CRM, ERP, Financials, HR, Supply Chain, and Marketing automation into a unified platform. Our intelligent workflows ensure data flows seamlessly between sectors, eliminating silos and manual data entry.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'What are the key benefits of cross-sector automation?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Seamless automation across the 6 sectors reduces operational costs by up to 40%, minimizes errors through intelligent data synchronization, and enables real-time insights for better decision-making across your entire business.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'How does AutoFabric ensure data security across all sectors?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'We implement enterprise-grade security protocols including end-to-end encryption, compliance with international standards (GDPR, HIPAA), and regular security audits. Your data remains protected whether flowing between CRM, ERP, or financial systems.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Can I start automating one sector and expand later?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Absolutely! AutoFabric is designed for scalable implementation. You can begin with any single sector (like CRM automation) and gradually integrate additional sectors as your business grows, ensuring seamless data connectivity throughout.',
   },
 ];

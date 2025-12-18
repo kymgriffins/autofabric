@@ -21,6 +21,10 @@ export const Inner = styled.div`
 `;
 
 export const LogoContainer = styled.div`
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+
   @media (max-width: 768px) {
     display: flex;
     align-items: center;

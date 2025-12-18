@@ -2,56 +2,56 @@ import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
 import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
 export const cardsInfo = [
   {
-    title: 'Spend Better',
+    title: 'Automate Operations',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'Streamline workflows across all business sectors with intelligent automation that reduces manual tasks and increases productivity.',
     icon: ic_money_send,
   },
   {
-    title: 'Invest Better',
+    title: 'Scale Efficiently',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'Grow your business with scalable automation solutions that adapt to your needs and integrate seamlessly across departments.',
     icon: ic_wallet_minus,
   },
 ];
 
 export const stats = [
   {
-    number: '50+',
-    subtitle: 'cities',
+    number: '6',
+    subtitle: 'core sectors',
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
+    number: '500+',
+    subtitle: 'automations',
   },
   {
-    number: '3M+',
-    subtitle: 'users',
+    number: '10K+',
+    subtitle: 'businesses',
   },
   {
-    number: '5+',
-    subtitle: 'user ratings',
+    number: '99.9%',
+    subtitle: 'uptime',
   },
 ];
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Confidently Shape Your',
-  'Financial Future',
+  'Transform Your Business',
+  'Operations',
 ];
 export const desktopParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape your financial future. Our modern',
-  'approach simplifies saving and investing, making it easier than ever.',
+  'At AutoFabric, we empower businesses to transform operations across all sectors. Our intelligent',
+  'automation platform streamlines workflows and drives efficiency like never before.',
 ];
 
 // For mobile
 export const mobileHeaderPhrase = [
-  'Confidently Shape',
-  ' Your Financial Future',
+  'Transform Your',
+  'Business Operations',
 ];
 export const mobileParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape',
-  'your financial future. Our modern approach',
-  'simplifies saving and investing, making it easier',
-  'than ever.',
+  'At AutoFabric, we empower businesses to transform',
+  'operations across all sectors. Our intelligent',
+  'automation platform streamlines workflows and',
+  'drives efficiency like never before.',
 ];

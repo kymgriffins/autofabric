@@ -4,44 +4,55 @@ import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+  'Automate Your Business',
+  'Across All Sectors',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+  'AutoFabric provides comprehensive automation solutions for the six core business sectors.',
+  "Transform your operations with intelligent tools designed for modern enterprises.",
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'AutoFabric provides comprehensive automation solutions for the six core business sectors.',
+  'Transform your operations with intelligent tools designed for modern enterprises.',
 ];
 
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: 'CRM Automation',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      'Streamline customer relationships with intelligent sales force automation, contact management, and customer service tools.',
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'ERP Systems',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Integrate all business processes with comprehensive enterprise resource planning solutions for optimal efficiency.',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'Financial Automation',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'Automate accounting, payroll, budgeting, and financial reporting with enterprise-grade financial management tools.',
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'HR/HCM Solutions',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Manage the complete employee lifecycle with advanced HR automation for recruiting, onboarding, and performance management.',
+  },
+  {
+    illustration: seamless_payments,
+    title: 'Supply Chain Automation',
+    details:
+      'Optimize procurement, logistics, inventory, and warehouse operations with intelligent supply chain management.',
+  },
+  {
+    illustration: smart_investing,
+    title: 'Marketing Automation',
+    details:
+      'Drive lead generation and customer acquisition with automated campaigns, email marketing, and analytics platforms.',
   },
 ];

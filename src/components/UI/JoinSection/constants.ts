@@ -12,34 +12,34 @@ export type Props = {
 export const testimonials = [
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
+      "Autofabric has revolutionized our operations across all departments. Their CRM automation streamlined our sales process, while ERP integration unified our entire business workflow. We've seen productivity increases we never thought possible.",
+    person: 'Kiprop Ngetich',
     avatar: robert_fox,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
+      "Implementing Autofabric's automation suite was a game-changer for our HR and supply chain management. The seamless integration between systems eliminated data silos and reduced manual errors by 80%. Our team can now focus on strategic growth.",
+    person: 'Muthoni Wanjiku',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
-    person: 'Esther Howard',
+      "Autofabric's comprehensive automation platform transformed our financial operations and marketing efforts. Automated reporting and campaign management have given us real-time insights and freed up valuable time for our core business activities.",
+    person: 'Achieng Oduya',
     avatar: esther_howard,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
+      "The unified automation approach from Autofabric connected our six core business sectors flawlessly. From customer relationship management to supply chain optimization, we've achieved operational excellence that drives real competitive advantage.",
+    person: 'Kipchoge Rotich',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
+      "Autofabric's intelligent automation tools have transformed how we manage our business processes. The platform's ability to integrate CRM, ERP, and financial systems has created a truly unified operation that scales with our growth.",
+    person: 'Wanjiku Maina',
     avatar: robert_fox,
   },
 ];
 
-export const desktopHeaderPhrase = ['Join over 3 million', 'members'];
+export const desktopHeaderPhrase = ['Join thousands of', 'businesses automating'];
