@@ -26,8 +26,8 @@ export const links = [
     linkTo: 'Solutions',
   },
   {
-    url: '/',
-    linkTo: 'Learn',
+    url: '/whitepaper',
+    linkTo: 'Whitepaper',
   },
   {
     url: '/',

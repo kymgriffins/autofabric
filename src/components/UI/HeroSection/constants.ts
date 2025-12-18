@@ -1,13 +1,13 @@
 // For desktop
-export const phrases = ['Automating business', 'across 6 sectors.'];
+export const phrases = ['Automating the pillars', 'of modern business.'];
 export const paragraphPhrases = [
-  "Transform your operations with comprehensive automation solutions. We're here to",
-  'streamline CRM, ERP, Financials, HR, Supply Chain, and Marketing processes.',
+  "From customer relationships to supply chains, we create intelligent connections between",
+  'CRM, ERP, Financials, HR, Supply Chain, and Marketing—transforming how you operate.'
 ];
 
 // For mobile
-export const mobilePhrases = ['Automating business', 'across 6 sectors'];
+export const mobilePhrases = ['Automating the 6 pillars', 'of modern business'];
 export const mobileParagraphPhrases = [
-  "Transform your operations with comprehensive automation solutions. We're",
-  'here to streamline CRM, ERP, Financials, HR, Supply Chain, and Marketing processes.',
+  "We create intelligent connections between all",
+  'core business functions: CRM, ERP, Financials, HR, Supply Chain, and Marketing.'
 ];
