@@ -6,7 +6,7 @@ export const paragraphPhrases = [
 ];
 
 // For mobile
-export const mobilePhrases = ['Automating the 6 pillars', 'of modern business'];
+export const mobilePhrases = ['Automating the pillars', 'of modern business'];
 export const mobileParagraphPhrases = [
   "We create intelligent connections between all",
   'core business functions: CRM, ERP, Financials, HR, Supply Chain, and Marketing.'
