@@ -154,7 +154,7 @@ const WhitepaperPage = () => {
               Enterprise software has reached an inflection point. The era of point solutions—where businesses stitch together 40–60 disconnected tools—is economically and operationally unsustainable.
             </p>
             <p className="text-gray-200 leading-relaxed mb-8 text-lg">
-              The <strong className="text-white">Full Business OS</strong> is a unified automation substrate that consolidates <strong className="text-white">essential business automations</strong> across seven functional domains into a single, programmable enterprise nervous system.
+              Most enterprises operate with 40–80 disconnected SaaS tools. Gartner's 2024 CIO survey reveals:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
               {[
