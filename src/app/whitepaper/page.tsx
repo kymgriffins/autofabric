@@ -1,7 +1,7 @@
 "use client";
 
-import styled from 'styled-components';
 import { GetStartedButton } from '@/components';
+import styled from 'styled-components';
 
 const Wrapper = styled.section`
   padding-top: 6rem;
@@ -34,8 +34,7 @@ const Sidebar = styled.aside`
 
   @media (max-width: 1024px) {
     width: 100%;
-    position: relative;
-    top: 0;
+    top: 2rem;
     margin-bottom: 2rem;
     padding: 1.5rem;
     background: #f3f4f6;
@@ -100,7 +99,10 @@ const WhitepaperPage = () => {
     e.preventDefault();
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Calculate offset to keep the section near the top of the viewport, just below the sticky TOC sidebar.
+      const offset = 128; // Approx. 8rem (sidebar top offset) in pixels.
+      const top = element.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
     }
   };
 
@@ -172,7 +174,7 @@ const WhitepaperPage = () => {
             <h2 className="text-3xl font-bold text-white mb-8 border-b pb-3 border-gray-600">1. The Crisis of Fragmentation: Why Current Approaches Fail</h2>
             <h3 className="text-xl font-bold text-gray-100 mb-6">The True Cost of Point Solutions</h3>
             <p className="text-gray-200 leading-relaxed mb-8 text-lg">
-              Most enterprises operate with 40–80 disconnected SaaS tools. Gartner's 2024 CIO survey reveals:
+              Most enterprises operate with 40–80 disconnected SaaS tools. Gartner&apos;s 2024 CIO survey reveals:
             </p>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
               <li className="p-4 bg-red-900/20 text-red-200 rounded-lg text-sm border border-red-800"><strong>68%</strong> report critical data inconsistencies</li>
